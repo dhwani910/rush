@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 97, 15);
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+header{
+    background-color: white;
+    padding: 1rem;
+}
+.logo{
+    width: 150px;
+    
+}
+section{
+    padding: 1 rem;
+    color: white;
+    font-size: 1rem;
+}
+.banner{
+    background-image: url('../images/background.jpg');
+    
+    min-height: 500px;
+    background-position: top center;
+    background-size: cover;
+}
+.banner h3{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    
+    text-transform: uppercase;
+    text-shadow: black 3px 3px 5px;
+    text-align: center;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: white;
+    
+}
+
+.rush-photo{
+    float: left;
+    margin-right: 1.5rem;
+    border: 12px solid white;
+
+}
+.video{
+    width: 500px;
+    height: 215px;
+    float: right;
+    margin: 1em;
+    border: 10px solid white;
+    
+
+}
+h1{
+    
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+}
+.music-video{
+    background-color: rgb(243, 131, 51);
+}
+.clr{
+    clear: both;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: yellow;
+
+}
+a:active{
+    color: blue;
+}
+
+
