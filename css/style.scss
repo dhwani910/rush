@@ -1,0 +1,124 @@
+@import '_partials.scss';
+@import '_mixins.scss';
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkred;
+    font-family: sans-serif;
+    line-height: 1.4;
+
+    .logo{
+        width: 150px;
+        
+    }
+    header{
+        background-color: white;
+        padding: 1rem;
+    }
+}
+
+
+
+section{
+    padding: 1 rem;
+    color: $font-color;
+    font-size: 1rem;
+}
+.banner{
+    background-image: url('../images/background.jpg');
+    
+    min-height: 500px;
+    background-position: top center;
+    background-size: cover;
+
+    h3{
+        color: $font-color;
+    font-weight: bold;
+    font-size: 3rem;
+    
+    text-transform: uppercase;
+    text-shadow: black 3px 3px 5px;
+    text-align: center;
+    }
+}
+
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    a{
+        color: $color-primary;
+
+        &:hover{
+            color: $color-secondary;
+        }
+        &:active{
+            color: $color-final;
+        }
+    }
+    
+   
+}
+
+
+.rush-photo{
+    float: left;
+    margin-right: 1.5rem;
+    border: 12px solid white;
+
+}
+
+
+.music-video{
+    background-color: rgb(243, 131, 51);
+
+
+    .clr{
+        clear: both;
+        width: 100%;
+    }
+
+    h1{
+    
+        font-style: normal;
+        color: black;
+        font-weight: bold;
+        @include new();
+    }
+
+    .video{
+        width: 500px;
+        height: 215px;
+        float: right;
+        margin: 1em;
+        border: 10px solid white;
+        
+    
+    }
+
+    p{
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        color: $font-color;
+        
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    background-color: red;
+
+}
+
+
+
